@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.seerslab.facelandmarktracking.view.RatioViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <SurfaceView
+            android:id="@+id/camera_surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.seerslab.facelandmarktracking.view.DrawingSurfaceView
+            android:id="@+id/drawing_surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.seerslab.facelandmarktracking.view.RatioViewGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="RESET"
+        android:onClick="onClickResetButton"/>
+
+</RelativeLayout>

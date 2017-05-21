@@ -1,0 +1,79 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/gicheonkang/Downloads/facetracking_android/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/gicheonkang/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/gicheonkang/Downloads/facetracking_android/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"jni-linker-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "jni-linker",
+			"buildCommand" : "/Users/gicheonkang/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/gicheonkang/Downloads/facetracking_android/app/.externalNativeBuild/cmake/release/x86 --target jni-linker",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/gicheonkang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/gicheonkang/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86  -Djni_linker_EXPORTS -I/Users/gicheonkang/OpenCV-android-sdk/sdk/native/jni/include -isystem /Users/gicheonkang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/gicheonkang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/gicheonkang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/gicheonkang/Downloads/facetracking_android/app/src/main/jni/jni_linker.cpp",
+					"workingDirectory" : "/Users/gicheonkang/Downloads/facetracking_android/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/gicheonkang/Downloads/facetracking_android/app/build/intermediates/cmake/release/obj/x86/libjni-linker.so",
+			"toolchain" : "12293803480170457101"
+		},
+		"lib_opencv-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "lib_opencv",
+			"buildType" : "release",
+			"output" : "/Users/gicheonkang/Downloads/facetracking_android/app/src/main/jniLibs/x86/libopencv_java3.so",
+			"toolchain" : "12293803480170457101"
+		},
+		"manipulation-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "manipulation-lib",
+			"buildCommand" : "/Users/gicheonkang/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/gicheonkang/Downloads/facetracking_android/app/.externalNativeBuild/cmake/release/x86 --target manipulation-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/gicheonkang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/gicheonkang/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86  -Dmanipulation_lib_EXPORTS -I/Users/gicheonkang/OpenCV-android-sdk/sdk/native/jni/include -isystem /Users/gicheonkang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/gicheonkang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/gicheonkang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/gicheonkang/Downloads/facetracking_android/app/src/main/jni/FaceTracker.cpp",
+					"workingDirectory" : "/Users/gicheonkang/Downloads/facetracking_android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/gicheonkang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/gicheonkang/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86  -Dmanipulation_lib_EXPORTS -I/Users/gicheonkang/OpenCV-android-sdk/sdk/native/jni/include -isystem /Users/gicheonkang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/gicheonkang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/gicheonkang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/gicheonkang/Downloads/facetracking_android/app/src/main/jni/Tracking.cpp",
+					"workingDirectory" : "/Users/gicheonkang/Downloads/facetracking_android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/gicheonkang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/gicheonkang/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86  -Dmanipulation_lib_EXPORTS -I/Users/gicheonkang/OpenCV-android-sdk/sdk/native/jni/include -isystem /Users/gicheonkang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/gicheonkang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/gicheonkang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/gicheonkang/Downloads/facetracking_android/app/src/main/jni/jni_linker.cpp",
+					"workingDirectory" : "/Users/gicheonkang/Downloads/facetracking_android/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/gicheonkang/Downloads/facetracking_android/app/build/intermediates/cmake/release/obj/x86/libmanipulation-lib.so",
+			"toolchain" : "12293803480170457101"
+		}
+	},
+	"toolchains" : 
+	{
+		"12293803480170457101" : 
+		{
+			"cCompilerExecutable" : "/Users/gicheonkang/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/gicheonkang/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

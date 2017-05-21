@@ -1,0 +1,7 @@
+# ninja log v5
+2	4624	0	CMakeFiles/manipulation-lib.dir/src/main/jni/jni_linker.cpp.o	6999f3e79d69de43
+1	4789	0	CMakeFiles/manipulation-lib.dir/src/main/jni/Tracking.cpp.o	db1003f8b6ad2795
+0	4834	0	CMakeFiles/manipulation-lib.dir/src/main/jni/FaceTracker.cpp.o	721b056736fb14d3
+4834	5230	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libmanipulation-lib.so	9cff158841a491
+2	2815	0	CMakeFiles/jni-linker.dir/src/main/jni/jni_linker.cpp.o	f17931835d728a6f
+2815	2990	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libjni-linker.so	3d9485439573a4f7

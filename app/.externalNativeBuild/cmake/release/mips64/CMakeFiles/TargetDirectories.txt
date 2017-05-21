@@ -1,0 +1,4 @@
+/Users/gicheonkang/Downloads/facetracking_android/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/edit_cache.dir
+/Users/gicheonkang/Downloads/facetracking_android/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/rebuild_cache.dir
+/Users/gicheonkang/Downloads/facetracking_android/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/manipulation-lib.dir
+/Users/gicheonkang/Downloads/facetracking_android/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/jni-linker.dir
